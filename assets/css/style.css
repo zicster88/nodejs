@@ -4,6 +4,8 @@ body{
 	background:#f4f4f4;
 }
 
+/* Navbar menu */
+
 .navbar{
 	background:#74af04;
 }
@@ -42,6 +44,8 @@ body{
   background:#fff !important;
 }
 
+/* Header */
+
 .header{
     margin-top: 57px;
     position: relative;
@@ -79,6 +83,8 @@ body{
 	line-height: 1.5;
 }
 
+/* bagian about */
+
 .about{
 	margin: .5rem 0;
 	padding: 1em;
@@ -112,53 +118,18 @@ body{
 h3{
 	color: #00b3f9;
 }
-.about .desc p{
+.about .desc p, .exp ul{
 	line-height:2;
 	color:#888;
 }
 
-.portfolio{
+/* bagian experience */
+
+.exp{
 	margin: .5rem 0;
 	padding: 1em;
 	position: relative;
 	padding-bottom: 150px;
-}
-
-.portfolio h1{
-	color:#74af04;
-	margin: 3em;
-	margin-top: 100px;
-}
-
-.small-img {
-	height: 100%;
-    width: 100%;
-	margin: 20px 0;
-}
-
-.portfolio-images {
-	display: grid;
-	grid-template-columns:repeat(3, 1fr);
-	grid-gap: 100px;
-}
-
-.portfolio p {
-	text-align: center;
-	color:#666;
-	font-size: 20px;
-	line-height: 1.5;
-}
-
-.exp {
-	margin: .5rem 0;
-	padding: 1em;
-	position: relative;
-}
-
-.exp h1{
-	color:#74af04;
-	margin: 3em;
-	margin-top: 100px;
 }
 
 .exp img {
@@ -170,6 +141,24 @@ h3{
 	position: relative;
 }
 
+.exp h1{
+	color:#74af04;
+	margin: 3em;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.exp-content h3{
+	text-align: center;
+}
+
+.exp-content {
+	background-color: #f4f4f4;
+	border: 4px solid #f9fbff;
+	margin-bottom: 100px;
+	padding-left: 25px;
+}
+
 .content-grid {
 	display: grid;
 	grid-template-columns:repeat(2, 1fr);
@@ -177,31 +166,30 @@ h3{
 	margin-left: 100px;
 }
 
-.exp p {
+.exp-description {
+	color:#74af04 ;
+}
+
+/* bagian Education */
+
+.edu-grid {
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap: 10px;
+	margin-left: 100px;
+}
+
+.edu p {
+	color:#74af04;
+}
+
+.edu-grid h3, .edu-grid p {
 	text-align: center;
-	color:#666;
-	font-size: 15px;
-	text-align: left;
-	margin-bottom: 65px;
-	float: center;
 }
 
-.exp-content {
-	box-shadow: 0 0 20px #ccc;
-	height: 500px;
-}
+/* bagian skills */
 
-.exp-data {
-	margin:0 20px;
-}
-
-.exp-footer {
-	margin:0 20px;
-	padding: 0 12px;
-	
-}
-
-.team, .portfolio {
+.team, .exp {
 	background-color: #f9fbff;
 }
 
@@ -215,6 +203,7 @@ h3{
 .team h3 {
 	text-align: center;
 	margin-top: 50px;
+	margin-right: 50px;
 }
 
 .team-profile, .team-profile::before, .team-profile::after {
@@ -318,6 +307,25 @@ h3{
 .tombol:hover{
 	background: #f4f4f4;
 	color: #74af04;
+}
+
+/* bagian awards */
+
+.awards-grid {
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap: 10px;
+	margin-left: 100px;
+}
+
+.awards-content p {
+	line-height:2;
+	color:#888;
+	text-align: center;
+}
+
+.awards h1 {
+	margin-left: 150px;
 }
 
 @media screen and (max-width: 915px) {
